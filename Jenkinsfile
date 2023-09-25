@@ -8,12 +8,4 @@ pipeline {
             }
         }
     }
-  
-  stages {
-        stage('testing file') {
-            steps {
-                echo 'checking the file we created'
-            }
-        }
-    }
 }
